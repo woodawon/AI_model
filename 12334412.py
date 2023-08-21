@@ -4,8 +4,8 @@ import math
 from eunjeon import Mecab
 from tensorflow.keras.preprocessing.text import Tokenizer
 
-os.chdir( r'D:\9\Workspace\VScode\AI_model/') #경로지정
-f = open('train.txt', 'r', encoding='utf8') #파일지정
+os.chdir(r'C:\텍스트 분류(감정)\AI_model')
+f = open('train.txt', 'r', encoding='utf8')
 text = f.read()
 mecab = Mecab()
 
